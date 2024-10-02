@@ -1,6 +1,6 @@
 ## 1. Ejercicio sobre usabilidad en los textos
 
-### - Organización de la información: Se usaron encabezados para dividir el contenido en secciones claras.
+#### - Organización de la información: Se usaron encabezados para dividir el contenido en secciones claras.
 
  ```
    -<h3>La Revolución de la informática</h3>
