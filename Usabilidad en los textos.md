@@ -168,11 +168,13 @@ a {
   
   ```
    <label>Correo electrónico</label>
+
    <input type="text" name="email">
 ```
 
   ```
    <label for="email">Correo electrónico <span class="required">*</span></label>
+
    <input type="email" id="email" name="email" required placeholder="nombre@ejemplo.com">
 ```
   
@@ -194,6 +196,7 @@ a {
       <label for="telefono">Teléfono</label>
       <input type="tel" id="telefono" name="telefono" placeholder="123-456-7890">
     </div>
+
     <div class="form-field">
       <label for="mensaje">Mensaje</label>
       <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
@@ -201,4 +204,78 @@ a {
 ```
   
 ### El siguiente fragmento de código CSS contiene varios errores de usabilidad en un formulario. Corrige estos errores para mejorar la experiencia del usuario al interactuar con el formulario, teniendo en cuenta también la accesibilidad en los formularios.
+
+#### - Escritura legible: Se ha cambiado la fuente a Arial. El tamaño de la fuente se ha aumentado a 16px para mejorar la legibilidad
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#### - Prueba de legibilidad: El texto y el fondo tienen suficiente contraste para asegurar la legibilidad en diferentes dispositivos y tamaños de pantalla.
+```
+.form-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+```
+#### - Simplificación del diseño: Se ha mejorado el diseño con tamaño a 15px un estilo moderno para facilitar la visualización.
+```
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+```
+
+#### - Botón de envío destacado: El botón de envío es grande, de un color llamativo y se vuelve más oscuro al pasar el cursor por encima, lo que mejora su visibilidad.
+```
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field input[type="text"]:focus,
+.form-field textarea:focus {
+  border-color: #007BFF;
+}
+```
+
+#### - Estilo: se cambio el estilo del envio del formulario el relleno, el borde y el fondo
+```
+.submit-button {
+  background-color: #ccc;
+  border: 1px solid #000;
+  padding: 10px 20px;
+}
+
+ .submit-button {
+    width: 100%;
+    padding: 15px;
+  }
+```
+
+
+
+
 
