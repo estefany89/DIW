@@ -6,7 +6,7 @@
 
  ```- <h3>La Revolución de la informática</h3>
 
-   - <h1>La Revolución de la informática</h1>
+    - <h1>La Revolución de la informática</h1>
  ```
 
 
