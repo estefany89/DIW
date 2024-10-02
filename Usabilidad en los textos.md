@@ -205,6 +205,7 @@ a {
 ### El siguiente fragmento de código CSS contiene varios errores de usabilidad en un formulario. Corrige estos errores para mejorar la experiencia del usuario al interactuar con el formulario, teniendo en cuenta también la accesibilidad en los formularios.
 
 #### - Escritura legible: Se ha cambiado la fuente a Arial. El tamaño de la fuente se ha aumentado a 16px para mejorar la legibilidad
+```
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
@@ -216,7 +217,7 @@ body {
   background-color: #f9f9f9;
   color: #333;
 }
-
+```
 #### - Prueba de legibilidad: El texto y el fondo tienen suficiente contraste para asegurar la legibilidad en diferentes dispositivos y tamaños de pantalla.
 ```
 .form-container {
