@@ -150,32 +150,38 @@ a {
  
 #### - Formato claro y orden lógico: Los campos están organizados en un orden lógico con 
 
-  ``` <label>Nombre</label>
+  ```
+<label>Nombre</label>
 
-   <label for="nombre">Nombre <span class="required">*</span></label>
+<label for="nombre">Nombre <span class="required">*</span></label>
    ```    
 
 #### - Etiquetas Descriptivas: Las etiquetas de los campos son más descriptivas, utilizando atributos for e id para mejorar la accesibilidad.
-  ``` <input type="text" name="nombre">
+  ```
+  <input type="text" name="nombre">
    
   <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre completo">
+
 ```
  
 #### - Campos Obligatorios: Los campos que son obligatorios están claramente marcados con un asterisco rojo, lo que ayuda al usuario a identificar qué información es necesaria.
   
-  ``` <label>Correo electrónico</label>
+  ```
+   <label>Correo electrónico</label>
    <input type="text" name="email">
 ```
 
-  ``` <label for="email">Correo electrónico <span class="required">*</span></label>
+  ```
+   <label for="email">Correo electrónico <span class="required">*</span></label>
    <input type="email" id="email" name="email" required placeholder="nombre@ejemplo.com">
 ```
   
 #### - Formato Claro y Orden Lógico: Los campos están organizados de manera lógica y con suficiente espacio entre ellos para facilitar la navegación.
  
-   ``` <label>Teléfono</label>
+   ```
+    <label>Teléfono</label>
      <input type="text" name="telefono">
-    </div>
+ 
     <div class="form-field">
       <label>Mensaje</label>
       <textarea name="mensaje"></textarea>
@@ -183,7 +189,8 @@ a {
  ```
 #### - Ayuda Contextual: Se ha añadido ayuda contextual mediante el uso de placeholder dentro de los campos y mensajes de ayuda para guiar al usuario sobre el formato de la información que debe ingresar.
  
-   ``` <div class="form-field">
+   ```
+    <div class="form-field">
       <label for="telefono">Teléfono</label>
       <input type="tel" id="telefono" name="telefono" placeholder="123-456-7890">
     </div>
