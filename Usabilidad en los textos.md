@@ -279,6 +279,9 @@ body {
 ```
 
 
+## 3. Ejercicio sobre usabilidad en imágenes
+
+
 
 
 
