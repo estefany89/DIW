@@ -1,4 +1,6 @@
 ## 1. Ejercicio sobre usabilidad en los textos
+.
+### El siguiente fragmentos de código HTML contiene varios errores de usabilidad relacionados con la usabilidad de los textos. Corregimos estos errores para mejorar la experiencia del usuario y la accesibilidad de los textos.
 
 #### - Organización de la información: Se usaron encabezados para dividir el contenido en secciones claras.
 
@@ -9,8 +11,8 @@
  ```
 
 
-### - Claridad y sencillez: Se simplificó el texto para hacerlo más fácil de entender y se eliminaron las palabras complicadas.
-### - Mejor legibilidad: Se cambió la fuente a Arial y se aumentó el tamaño a 16px para que sea más fácil de leer
+#### - Claridad y sencillez: Se simplificó el texto para hacerlo más fácil de entender y se eliminaron las palabras complicadas.
+#### - Mejor legibilidad: Se cambió la fuente a Arial y se aumentó el tamaño a 16px para que sea más fácil de leer
 
 ```
 - <p>El campo de la ciberseguridad ha experimentado un cambio de paradigma significativo, pasando de enfoques reactivos a proactivos, donde la detección de amenazas se basa en algoritmos heurísticos
@@ -20,7 +22,7 @@ y análisis de comportamiento para anticipar y mitigar posibles vulnerabilidades
 y análisis de comportamiento para anticipar y mitigar posibles vulnerabilidades antes de que sean explotadas.</p>
 ```
 
-### - Listas y viñetas: Se presentó información importante en listas con viñetas para que sea más fácil de seguir.
+#### - Listas y viñetas: Se presentó información importante en listas con viñetas para que sea más fácil de seguir.
 
 ```
   Implementar firewalls robustos
@@ -34,8 +36,8 @@ y análisis de comportamiento para anticipar y mitigar posibles vulnerabilidades
   </ul>
 ```
   
-### - Corrección de errores: Se revisó el texto para corregir errores de ortografía y gramática y se cambio el tamaño para facilitar la lectura.
-### - Accesibilidad: Se tuvo en cuenta que el texto sea fácil de leer para personas con problemas visuales y se acortaron los párrafos para facilitar la lectura.
+#### - Corrección de errores: Se revisó el texto para corregir errores de ortografía y gramática y se cambio el tamaño para facilitar la lectura.
+#### - Accesibilidad: Se tuvo en cuenta que el texto sea fácil de leer para personas con problemas visuales y se acortaron los párrafos para facilitar la lectura.
 
 ```
 - <h4>Nuevas tecnologías</h4>
@@ -45,7 +47,7 @@ y análisis de comportamiento para anticipar y mitigar posibles vulnerabilidades
   <p>Las nuevas tecnologías como la computación cuántica y la inteligencia artificial están transformando la manera en que procesamos la información y tomamos decisiones.</p>
 ```
 
-### - Enlaces más claros: Se mejoró la redacción de los enlaces, evitando frases como "pinche aquí."
+#### - Enlaces más claros: Se mejoró la redacción de los enlaces, evitando frases como "pinche aquí."
 
 ```
  - <p>Para saber más <a href="#">pinche aquí</a></p>
@@ -54,9 +56,9 @@ y análisis de comportamiento para anticipar y mitigar posibles vulnerabilidades
 ```
  
 
-## El siguiente fragmentos de código CSS contiene varios errores de usabilidad relacionados con la usabilidad de los textos. Corregimos estos errores para mejorar la experiencia del usuario y la accesibilidad de los textos.
+### El siguiente fragmentos de código CSS contiene varios errores de usabilidad relacionados con la usabilidad de los textos. Corregimos estos errores para mejorar la experiencia del usuario y la accesibilidad de los textos.
 
-### Mejor legibilidad: Se cambió la fuente a Arial y sans-serif se aumentó el tamaño a 16px  y se cambio el color de fondo y texto para que sea más fácil de leer
+#### Mejor legibilidad: Se cambió la fuente a Arial y sans-serif se aumentó el tamaño a 16px  y se cambio el color de fondo y texto para que sea más fácil de leer
 ```
  body {
   background-color: #f0f0f0;
@@ -79,7 +81,7 @@ body {
 }
 ```
 
-### - Organización de la información: Se usaron encabezados para dividir el contenido en secciones claras.
+#### - Organización de la información: Se usaron encabezados para dividir el contenido en secciones claras.
 ```
 h1 {
   font-size: 24px;
@@ -92,7 +94,7 @@ h1, h2 {
 }
  ```
 
-### - Accesibilidad: Se tuvo en cuenta que el texto sea fácil de leer y se cambio el color y estilo.
+#### - Accesibilidad: Se tuvo en cuenta que el texto sea fácil de leer y se cambio el color y estilo.
 ```
 a {
   color: #0000ff;
@@ -131,3 +133,6 @@ a {
   background-color: #0056b3;
 }
  ```
+## 2. Ejercicio sobre usabilidad en formularios
+
+El siguiente fragmento de código HTML y CSS contiene varios errores de usabilidad en un formulario. Corrige estos errores para mejorar la experiencia del usuario al interactuar con el formulario, teniendo en cuenta también la accesibilidad en los formularios.
