@@ -61,7 +61,7 @@ y análisis de comportamiento para anticipar y mitigar posibles vulnerabilidades
 #### - Mejor legibilidad: Se cambió la fuente a Arial y sans-serif se aumentó el tamaño a 16px  y se cambio el color de fondo y texto para que sea más fácil de leer
 
 ```
- body {
+body {
   background-color: #f0f0f0;
   color: #888888;
   font-family: 'Times New Roman', Times, serif;
@@ -69,7 +69,6 @@ y análisis de comportamiento para anticipar y mitigar posibles vulnerabilidades
   max-width: 600px;
   margin: 0 auto;
 }
-
 
 body {
   background-color: #ffffff;
