@@ -1,5 +1,5 @@
 ## 1. Ejercicio sobre usabilidad en los textos
-.
+
 ### El siguiente fragmentos de código HTML contiene varios errores de usabilidad relacionados con la usabilidad de los textos. Corregimos estos errores para mejorar la experiencia del usuario y la accesibilidad de los textos.
 
 #### - Organización de la información: Se usaron encabezados para dividir el contenido en secciones claras.
@@ -133,6 +133,7 @@ a {
   background-color: #0056b3;
 }
  ```
+
 ## 2. Ejercicio sobre usabilidad en formularios
 
 El siguiente fragmento de código HTML y CSS contiene varios errores de usabilidad en un formulario. Corrige estos errores para mejorar la experiencia del usuario al interactuar con el formulario, teniendo en cuenta también la accesibilidad en los formularios.
