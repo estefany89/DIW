@@ -1,9 +1,9 @@
-# El siguiente fragmentos de código HTML contiene varios errores de usabilidad relacionados con la usabilidad de los textos. Corregimos estos errores para mejorar la experiencia del usuario y la accesibilidad de los textos.
+## El siguiente fragmentos de código HTML contiene varios errores de usabilidad relacionados con la usabilidad de los textos. Corregimos estos errores para mejorar la experiencia del usuario y la accesibilidad de los textos.
 
 ### - Organización de la información: Se usaron encabezados para dividir el contenido en secciones claras.
 
  ```
-   - - <h3>La Revolución de la informática</h3>
+   -<h3>La Revolución de la informática</h3>
 
    - <h1>La Revolución de la informática</h1>
  ```
@@ -50,7 +50,7 @@ y análisis de comportamiento para anticipar y mitigar posibles vulnerabilidades
 ```
  
 
-# El siguiente fragmentos de código CSS contiene varios errores de usabilidad relacionados con la usabilidad de los textos. Corregimos estos errores para mejorar la experiencia del usuario y la accesibilidad de los textos.
+## El siguiente fragmentos de código CSS contiene varios errores de usabilidad relacionados con la usabilidad de los textos. Corregimos estos errores para mejorar la experiencia del usuario y la accesibilidad de los textos.
 
 ### Mejor legibilidad: Se cambió la fuente a Arial y sans-serif se aumentó el tamaño a 16px  y se cambio el color de fondo y texto para que sea más fácil de leer
 ``` body {
