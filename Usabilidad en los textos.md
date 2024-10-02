@@ -144,8 +144,9 @@ a {
 
 #### - Organización de la información: Se usaron encabezados para dividir el contenido en secciones claras.
 
-  <h1>Formulario</h1>
+``` <h1>Formulario</h1>
   <h1>Formulario de Contacto</h1>
+``` 
  
 #### - Formato claro y orden lógico: Los campos están organizados en un orden lógico con 
 
