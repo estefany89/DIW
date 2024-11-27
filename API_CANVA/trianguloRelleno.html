@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        canvas { border: 1px solid black; }
+    </style>
+</head>
+<body>
+    <h1>8. Triángulo relleno</h1>
+    <canvas id="canvas9" width="300" height="200"></canvas>
+    <script>
+        const ctx = document.getElementById("canvas9").getContext("2d");
+        ctx.fillStyle = "blue";
+        ctx.beginPath();
+        ctx.moveTo(50, 50);
+        ctx.lineTo(200, 50);
+        ctx.lineTo(50, 150);
+        ctx.closePath();
+        ctx.fill();
+    </script>
+</body>
+</html>

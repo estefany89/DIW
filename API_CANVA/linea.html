@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        canvas { border: 1px solid black; }
+    </style>
+</head>
+<body>
+    <h1>1. Dibujar una línea recta</h1>
+    <canvas id="canvas1" width="400" height="400"></canvas>
+    <script>
+        const ctx = document.getElementById("canvas1").getContext("2d");
+        ctx.strokeStyle = "red";
+        ctx.lineWidth = 5;
+        ctx.beginPath();
+        ctx.moveTo(50, 50);
+        ctx.lineTo(350, 350);
+        ctx.stroke();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        canvas { border: 1px solid black; }
+    </style>
+</head>
+<body>
+    <h1>4. Un aro o circunferencia</h1>
+    <canvas id="canvas4" width="400" height="400"></canvas>
+    <script>
+        const ctx = document.getElementById("canvas4").getContext("2d");
+        ctx.strokeStyle = "red";
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.arc(200, 200, 100, 0, Math.PI * 2);
+        ctx.stroke();
+    </script>
+</body>
+</html>

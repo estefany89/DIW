@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        canvas { border: 1px solid black; }
+    </style>
+</head>
+<body>
+    <h1>7. Elipse con relleno rojo</h1>
+    <canvas id="canvas7" width="400" height="200"></canvas>
+    <script>
+        const ctx = document.getElementById("canvas7").getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.beginPath();
+        ctx.ellipse(200, 100, 200, 100, 0, 0, Math.PI * 2);
+        ctx.fill();
+    </script>
+</body>
+</html>

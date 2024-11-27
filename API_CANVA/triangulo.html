@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        canvas { border: 1px solid black; }
+    </style>
+</head>
+<body>
+    <h1>8. Triángulo</h1>
+    <canvas id="canvas8" width="300" height="200"></canvas>
+    <script>
+        const ctx = document.getElementById("canvas8").getContext("2d");
+        ctx.strokeStyle = "green";
+        ctx.lineWidth = 5;
+        ctx.beginPath();
+        ctx.moveTo(50, 50);
+        ctx.lineTo(200, 50);
+        ctx.lineTo(50, 150);
+        ctx.closePath();
+        ctx.stroke();
+    </script>
+</body>
+</html>
