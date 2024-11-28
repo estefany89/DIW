@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Propuesto Canvas</title>
+  <script type="text/javascript">
+    function dibujarCanvas() {
+      var canvas = document.getElementById('miCanvas');
+      var contexto = canvas.getContext('2d');
+
+      var gradienteCielo = contexto.createLinearGradient(0, 0, 0, 275);
+      gradienteCielo.addColorStop(0, "skyblue");
+      gradienteCielo.addColorStop(1, "white");
+      contexto.fillStyle = gradienteCielo;
+      contexto.fillRect(0, 0, 550, 275);
+
+      var gradienteSuelo = contexto.createLinearGradient(0, 275, 0, 350);
+      gradienteSuelo.addColorStop(0, "green");
+      gradienteSuelo.addColorStop(1, "darkgreen");
+      contexto.fillStyle = gradienteSuelo;
+      contexto.fillRect(0, 275, 550, 75);
+
+      contexto.fillStyle = "gray";
+      contexto.beginPath();
+      contexto.moveTo(50, 275);
+      contexto.lineTo(150, 100);
+      contexto.lineTo(250, 275);
+      contexto.closePath();
+      contexto.fill();
+
+      contexto.beginPath();
+      contexto.moveTo(200, 275);
+      contexto.lineTo(300, 120);
+      contexto.lineTo(400, 275);
+      contexto.closePath();
+      contexto.fill();
+
+      contexto.beginPath();
+      contexto.arc(450, 70, 40, 0, 2 * Math.PI);
+      contexto.fillStyle = "yellow";
+      contexto.fill();
+
+      contexto.fillStyle = "white";
+      contexto.beginPath();
+      contexto.moveTo(380, 150);
+      contexto.bezierCurveTo(360, 120, 440, 120, 420, 150);
+      contexto.bezierCurveTo(460, 150, 460, 180, 420, 180);
+      contexto.bezierCurveTo(400, 200, 360, 200, 380, 180);
+      contexto.bezierCurveTo(350, 180, 350, 150, 380, 150);
+      contexto.closePath();
+      contexto.fill();
+
+      contexto.strokeStyle = "blue";
+      for (var i = 0; i < 3; i++) { 
+        for (var j = 0; j < 6; j++) { 
+          var x = 380 + j * 10; 
+          var y = 180 + i * 20;
+          contexto.beginPath();
+          contexto.moveTo(x, y);
+          contexto.lineTo(x + 10, y + 20); 
+          contexto.stroke();
+        }
+      }
+
+      
+      contexto.font = "20px Verdana";
+      contexto.fillStyle = "White";
+      contexto.fillText("Paisaje de Canvas", 180, 340);
+    }
+  </script>
+</head>
+<body onLoad="dibujarCanvas();">
+  <canvas id="miCanvas" width="550" height="350">Su navegador no soporta Canvas.</canvas>
+</body>
+</html>
